@@ -10,3 +10,5 @@ function goToDownload(){
 
 		}
 	}
+
+// how do I link to another already existing page, instead of just changing the CSS?
