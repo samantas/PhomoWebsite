@@ -40,11 +40,7 @@ Josh Cope */
     z-index: 10;
 }
 
-<<<<<<< HEAD
 .banner-top ul {
-=======
-.banner-top ul{
->>>>>>> 6721699f399d90f521262bfb67478d9c1b2f727f
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -73,17 +69,16 @@ Josh Cope */
     color: rgba(255, 255, 255, 0.25);
 }
 
-<<<<<<< HEAD
 .banner-top ul li a:active {
     color: rgba(255, 255, 255, 0.25);
-=======
-.banner-top li{
-   display:inline;
-   float:right;
-   width:150px;
-   height:auto;
-   text-align: center;
->>>>>>> 6721699f399d90f521262bfb67478d9c1b2f727f
+}
+
+.banner-top li {
+    display: inline;
+    float: right;
+    width: 150px;
+    height: auto;
+    text-align: center;
 }
 
 .phomo-logo {
@@ -97,13 +92,12 @@ Josh Cope */
     transition: 0.5s;
 }
 
-<<<<<<< HEAD
 .phomo-logo:hover {
     transform: translate(40px)
-=======
-.banner-top a:hover{
-   color:rgba(255,255,255,0.25);
->>>>>>> 6721699f399d90f521262bfb67478d9c1b2f727f
+}
+
+.banner-top a:hover {
+    color: rgba(255, 255, 255, 0.25);
 }
 
 #content {
@@ -139,7 +133,7 @@ Josh Cope */
 .big_div {
     height: auto;
     width: auto;
-    background-color:#fff;
+    background-color: #fff;
     margin: 0 auto;
     padding: 0px;
     opacity: 1;
@@ -198,9 +192,6 @@ Josh Cope */
     box-shadow: 5px 5px 5px #000;
     transition: 0.5s;
 }
-
-
-/*this isn't working*/
 
 .wireframe-pic img:hover {
     box-shadow: 10px 10px 10px #000;
@@ -320,9 +311,6 @@ Josh Cope */
     border: none;
 }
 
-
-/*is this even working?*/
-
 .sign-up-form input[placeholder] {
     padding: 5px;
     color: rgba(233, 70, 74, 0.7);
@@ -367,15 +355,14 @@ Josh Cope */
     display: inline-block;
 }
 
-<<<<<<< HEAD
 .firstProfile {
     margin-top: 100px;
 }
-=======
+
 .sign-up-form input[placeholder] {
-   padding:5px;
-   color:rgba(233, 70, 74, 0.7);
->>>>>>> 6721699f399d90f521262bfb67478d9c1b2f727f
+    padding: 5px;
+    color: rgba(233, 70, 74, 0.7);
+}
 
 .left-column img {
     width: 200px;
@@ -436,7 +423,7 @@ Josh Cope */
     z-index: 20;
 }
 
-/*have yet to style for tablet and mobile sized devices!!!*/
+
 /* =============================================================================
    Media Queries
    ========================================================================== */
