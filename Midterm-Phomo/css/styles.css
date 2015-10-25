@@ -199,9 +199,6 @@ Josh Cope */
     transition: 0.5s;
 }
 
-
-/*this isn't working*/
-
 .wireframe-pic img:hover {
     box-shadow: 10px 10px 10px #000;
     z-index: 25;
@@ -321,8 +318,6 @@ Josh Cope */
 }
 
 
-/*is this even working?*/
-
 .sign-up-form input[placeholder] {
     padding: 5px;
     color: rgba(233, 70, 74, 0.7);
@@ -436,7 +431,6 @@ Josh Cope */
     z-index: 20;
 }
 
-/*have yet to style for tablet and mobile sized devices!!!*/
 /* =============================================================================
    Media Queries
    ========================================================================== */
