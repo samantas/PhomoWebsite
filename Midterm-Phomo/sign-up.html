@@ -31,8 +31,8 @@
                 <nav>
                     <!-- header nav bar / main menu -->
                     <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="support.html">Support</a></li>
+                        <!-- <li><a href="about.html">About Us</a></li> -->
+                        <!-- <li><a href="support.html">Support</a></li> -->
                         <li><a href="download.html">Download</a></li>
                         <li><a href="sign-up.html">Sign Up</a></li>
                     </ul>
@@ -40,55 +40,55 @@
             </header>
         </div>
     </div>
-    <!-- first big div -->
-    <div class="big_div">
-        <img src="img/photo4.1.jpg" class="background-pic">
-        <!-- sign up form -->
-        <div class="sign-up-form">
-            <form>
-                <label>Email:</label>
-                <br>
-                <input type="email" name="email" placeholder="abc123@gmail.com">
-                <br>
-                <br>
-                <label>Username:</label>
-                <br>
-                <input type="text" name="username" placeholder="abc123">
-                <br>
-                <br>
-                <label>Password:</label>
-                <br>
-                <input type="password" name="psw">
-                <br>
-                <br>
-                <br>
-                <input type="submit" value="Submit">
-            </form>
+    <div id="content">
+        <!-- first big div -->
+        <div class="big_div">
+            <img src="img/photo4.2.jpg" class="background-pic">
+            <!-- sign up form -->
+            <div class="sign-up-form">
+                <form>
+                    <label>Email:</label>
+                    <br>
+                    <input type="email" name="email" placeholder="abc123@gmail.com">
+                    <br>
+                    <br>
+                    <label>Username:</label>
+                    <br>
+                    <input type="text" name="username" placeholder="abc123">
+                    <br>
+                    <br>
+                    <label>Password:</label>
+                    <br>
+                    <input type="password" name="psw">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <!-- middle banner between the two divs -->
+            <div class="banner-middle">
+                <h2>Sign up to create an account.
+                <br> Let us help you host your next event!</h2>
+            </div>
+
+            <div class="clear-all"></div>
+            <br><br>
+
+            <!-- second big div -->
+            <div class="big_div">
+                <img src="img/photo1.1.jpg" class="background-pic">
+            </div>
         </div>
-        <!-- social widgets -->
-        <div id="fb-root"></div>
-        <!-- pop up facebook widget -->
-        <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-        </script>
-        <!-- like button -->
-        <div class="fb-like" data-href="http://samantascreations.com/" data-width="500" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+
     </div>
-    <!-- middle banner between the two divs -->
-    <div class="banner-middle">
-        <h2>Sign up to create an account. Let us help you host your next event!</h2>
-    </div>
-    <!-- second big div -->
-    <div class="big_div">
-        <img src="img/photo1.1.jpg" class="background-pic">
-    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            &copy; 2015 PHOMO
+        </div>
+    </footer>
 </body>
 
 </html>
