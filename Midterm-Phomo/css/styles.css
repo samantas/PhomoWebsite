@@ -479,7 +479,7 @@ Josh Cope */
         transition: 0.5s;
     }
     .big_div {
-        height: 250px;
+        height: auto;
         width: auto;
         margin: 0 auto;
         padding: 0px;
@@ -492,7 +492,7 @@ Josh Cope */
         height: auto;
         overflow: hidden;
         margin: 0px;
-        padding-top: 70px;
+        padding-top: 30px;
         z-index: 0;
         pointer-events: none;
     }
@@ -500,17 +500,19 @@ Josh Cope */
         opacity: 0;
     }
     .banner-middle {
-        height: 100px;
+        height: 80px;
         width: 100%;
         background-color: #e9464a;
         margin: 0px;
         padding: 0px;
         position: absolute;
+        display: inline;
     }
     .banner-middle h2 {
         font-family: "Helvetica", arial, sans-serif;
+        font-size: 20px;
         color: #fff;
-        padding: 20px;
+        padding: 10px;
         margin: 0px;
         text-align: center;
         opacity: 1;
@@ -530,6 +532,96 @@ Josh Cope */
         text-align: center;
         opacity: 1;
         transition: 0.5s;
+    }
+    .diagram {
+        opacity: 0;
+    }
+    .sign-up-form form {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        z-index: 20;
+        border-radius: 20px;
+        margin: 20px;
+        background-color: rgba(233, 70, 74, 0.6);
+        color: #fff;
+        font-family: "Helvetica", arial, sans-serif;
+        text-align: center;
+    }
+    .sign-up-form label {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+    }
+    .sign-up-form input[type=text] {
+        width: 150px;
+        height: 25px;
+        padding: 2px;
+        line-height: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    .sign-up-form input[type=password] {
+        width: 150px;
+        height: 25px;
+        padding: 5px;
+        line-height: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    .sign-up-form input[type=email] {
+        width: 150px;
+        height: 25px;
+        padding: 2px;
+        line-height: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    .sign-up-form input[placeholder] {
+        padding: 5px;
+        color: rgba(233, 70, 74, 0.7);
+    }
+    .sign-up-form input[type=submit] {
+        width: 90px;
+        height: 25px;
+        padding: 2px;
+        line-height: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: rgba(233, 70, 74, 0.7);
+        border: none;
+    }
+    .banner-bottom {
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-color: #e9464a;
+        margin: 0px;
+        padding: 0px;
+    }
+    .socialWidgets {
+        width: 100%;
+        height: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+       
+        display: inline;
+        text-align: center;
+
+        z-index: 15;
+    }
+    .socialWidgets img {
+        width: 150px;
+        height: auto;
+
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+
+        position: relative;
     }
 }
 
